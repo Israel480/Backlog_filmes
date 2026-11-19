@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="vertical" android:padding="16dp">
+
+        <ImageView android:id="@+id/ivPoster" android:layout_width="180dp"
+            android:layout_height="270dp" android:layout_gravity="center"
+            android:scaleType="centerCrop" />
+        <TextView android:id="@+id/tvTitle" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:paddingTop="12dp"
+            android:textSize="22sp" android:textStyle="bold" />
+        <TextView android:id="@+id/tvInfo" android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView android:id="@+id/tvOverview" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:paddingTop="12dp" />
+        <TextView android:id="@+id/tvStatus" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:paddingTop="12dp"
+            android:textStyle="bold" />
+
+        <Button android:id="@+id/btnWant" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:text="Quero assistir" />
+        <Button android:id="@+id/btnWatched" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:text="Já assisti" />
+        <Button android:id="@+id/btnRemove" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:text="Remover da lista" />
+        <Button android:id="@+id/btnBack" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:text="Voltar" />
+        <Button android:id="@+id/btnMenu" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:text="Menu principal" />
+    </LinearLayout>
+</ScrollView>
